@@ -9,3 +9,12 @@ for(let i = 0; i<numbers.length; i++){
     }
 }
 console.log(maxNum) <br>
+ Write a program that prints a pattern of stars, such as a right-angled triangle, where the number of rows is N. <br>
+
+for (let i = 0; i<=5; i++){
+    let line = ""
+    for(let j = 0; j<=5; j++){
+    let newLine = "*"
+    console.log(newLine)
+    }
+} <br>
