@@ -20,8 +20,11 @@ for (let i = 0; i<=5; i++){
 } <br>
 Write a program to calculate and display sum of the following series using for loop x + x^2 + x^3 +...x^n. <br>
 
-let x = parseInt(window.prompt);
-for(let i = 0 ; i<=x; i++){
- let sum= Math.pow(2, i);
-  console.log(sum);
+let x = parseFloat(window.prompt("Enter the value of x:"));
+let n = parseInt(window.prompt("Enter the value of n:"));
+
+let sum = 0;
+for (let i = 1; i <= n; i++) {
+    sum += Math.pow(x, i);
 }
+console.log("The sum of the series is:", sum);
