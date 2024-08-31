@@ -5,11 +5,11 @@ let maxNum = numbers[0];
 for(let i = 0; i<numbers.length; i++){
     if(numbers[i] > maxNum ){
         maxNum = numbers[i];
-    
-    }
-}
+        }
+        }
 console.log(maxNum) <br>
- Write a program that prints a pattern of stars, such as a right-angled triangle, where the number of rows is N. <br>
+
+Write a program that prints a pattern of stars, such as a right-angled triangle, where the number of rows is N. <br>
 
 for (let i = 0; i<=5; i++){
     let line = ""
@@ -18,3 +18,6 @@ for (let i = 0; i<=5; i++){
     console.log(newLine)
     }
 } <br>
+Write a program to calculate and display sum of the following series using for loop x + x^2 + x^3 +...x^n. <br>
+
+let x = parseInt(window.prompt);
