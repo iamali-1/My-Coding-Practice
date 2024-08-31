@@ -21,3 +21,4 @@ for (let i = 0; i<=5; i++){
 Write a program to calculate and display sum of the following series using for loop x + x^2 + x^3 +...x^n. <br>
 
 let x = parseInt(window.prompt);
+for(let i = 0 ; i<=x; i++){
