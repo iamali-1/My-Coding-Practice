@@ -40,4 +40,4 @@ for(let i=0; i<array.length;i++){
 let  avg = sum/array.length;
 return avg;
 }
-console.log(average([50,50]));
+console.log(average([100,50]));
