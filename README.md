@@ -27,4 +27,17 @@ let sum = 0;
 for (let i = 1; i <= n; i++) {
     sum += Math.pow(x, i);
 }
-console.log("The sum of the series is:", sum);
+console.log("The sum of the series is:", sum); <br>
+
+Write a function to calculate the average of an array <br>
+
+function average(array){
+    let sum = 0;
+for(let i=0; i<array.length;i++){
+    sum+=array[i];
+      
+}
+let  avg = sum/array.length;
+return avg;
+}
+console.log(average([50,50]));
