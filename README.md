@@ -40,4 +40,19 @@ for(let i=0; i<array.length;i++){
 let  avg = sum/array.length;
 return avg;
 }
-console.log(average([100,50]));
+console.log(average([100,50])); <br>
+
+write a function for a password validator. <br>
+
+function isValidPassword(Password, username){
+if(Password.length<8 ){
+    return false}
+if(Password.indexOf(" ")!== -1){
+return false
+}
+if( Password.indexOf(username)!== -1){
+    return false
+}
+else{return true};
+}
+console.log(isValidPassword("SonGohan","Gohan")); <br>
